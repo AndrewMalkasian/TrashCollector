@@ -168,12 +168,25 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="IServiceCollection.cs" />
     <Compile Include="Migrations\201910021843153_cust_empAdd.cs" />
     <Compile Include="Migrations\201910021843153_cust_empAdd.Designer.cs">
       <DependentUpon>201910021843153_cust_empAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041216191_AddedPickUpDay.cs" />
+    <Compile Include="Migrations\201910041216191_AddedPickUpDay.Designer.cs">
+      <DependentUpon>201910041216191_AddedPickUpDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041451545_BalanceAdded.cs" />
+    <Compile Include="Migrations\201910041451545_BalanceAdded.Designer.cs">
+      <DependentUpon>201910041451545_BalanceAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041459469_BalanceToDouble.cs" />
+    <Compile Include="Migrations\201910041459469_BalanceToDouble.Designer.cs">
+      <DependentUpon>201910041459469_BalanceToDouble.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -247,9 +260,15 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\CustomerCreate.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Customer\Create.cshtml" />
+    <Content Include="Views\Customer\Edit.cshtml" />
+    <Content Include="Views\Customer\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Employee\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -270,6 +289,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910021843153_cust_empAdd.resx">
       <DependentUpon>201910021843153_cust_empAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041216191_AddedPickUpDay.resx">
+      <DependentUpon>201910041216191_AddedPickUpDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041451545_BalanceAdded.resx">
+      <DependentUpon>201910041451545_BalanceAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041459469_BalanceToDouble.resx">
+      <DependentUpon>201910041459469_BalanceToDouble.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

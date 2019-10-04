@@ -98,12 +98,14 @@ C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\bin\Microsoft
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csprojAssemblyReference.cache
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csproj.CoreCompileInputs.cache
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csproj.CopyComplete
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.dll
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.pdb
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.InitialMigration.resources
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csproj.GenerateResource.cache
-C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.CustomerAndEmployeeAdded.resources
-C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.Employee_CustomerBothAdded.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.cust_empAdd.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.AddedPickUpDay.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csprojAssemblyReference.cache
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BalanceAdded.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BalanceToDouble.resources

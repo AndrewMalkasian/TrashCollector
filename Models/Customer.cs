@@ -17,6 +17,8 @@ namespace TrashCollectorRemade
         public string StreetAddress { get; set; }
         public string ZipCode { get; set; }
         public string State { get; set; }
+        public string PickupDay { get; set; }
+        public double Balance { get; set; }
         [ForeignKey("ApplicationUser")]
         public string ApplicationId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
