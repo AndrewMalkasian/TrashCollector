@@ -14,11 +14,18 @@ namespace TrashCollectorRemade
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
         public string ZipCode { get; set; }
+        public string PickUpDay { get; set; }
+        public bool PickUpStatus { get; set; }
+
         [ForeignKey("ApplicationUser")]
         public string ApplicationId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
+        
+
+
+
+
 
     }
 }

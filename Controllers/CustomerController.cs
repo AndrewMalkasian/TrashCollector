@@ -20,9 +20,9 @@ namespace TrashCollectorRemade.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-            var customer = User.Identity.GetUserId();
+           
 
-            return View(customer);
+            return View();
         }
         //TODO: createyourindex view 
 
@@ -85,6 +85,7 @@ namespace TrashCollectorRemade.Controllers
                 customerFromDb.ZipCode = customer.ZipCode;
                 customerFromDb.State = customer.State;
                 customerFromDb.PickupDay = customer.PickupDay;
+                customerFromDb.SpecialOneTimePickUp = customer.SpecialOneTimePickUp;
                 db.SaveChanges();
 
                 return RedirectToAction("Index","Customer");

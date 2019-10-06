@@ -109,3 +109,6 @@ C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\Tra
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.csprojAssemblyReference.cache
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BalanceAdded.resources
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BalanceToDouble.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.SinglePickUpDay.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.TestingProperties.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BoolPUStatusAdded.resources

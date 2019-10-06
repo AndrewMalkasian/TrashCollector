@@ -188,6 +188,18 @@
     <Compile Include="Migrations\201910041459469_BalanceToDouble.Designer.cs">
       <DependentUpon>201910041459469_BalanceToDouble.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910060235473_SinglePickUpDay.cs" />
+    <Compile Include="Migrations\201910060235473_SinglePickUpDay.Designer.cs">
+      <DependentUpon>201910060235473_SinglePickUpDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910060302188_TestingProperties.cs" />
+    <Compile Include="Migrations\201910060302188_TestingProperties.Designer.cs">
+      <DependentUpon>201910060302188_TestingProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910061807225_BoolPUStatusAdded.cs" />
+    <Compile Include="Migrations\201910061807225_BoolPUStatusAdded.Designer.cs">
+      <DependentUpon>201910061807225_BoolPUStatusAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Global.asax.cs">
@@ -261,14 +273,16 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\CustomerCreate.cshtml" />
-    <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Customer\Create.cshtml" />
+    <Content Include="Views\Employee\ZipInfo.cshtml" />
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Employee\Filter.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Employee\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -298,6 +312,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910041459469_BalanceToDouble.resx">
       <DependentUpon>201910041459469_BalanceToDouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910060235473_SinglePickUpDay.resx">
+      <DependentUpon>201910060235473_SinglePickUpDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910060302188_TestingProperties.resx">
+      <DependentUpon>201910060302188_TestingProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910061807225_BoolPUStatusAdded.resx">
+      <DependentUpon>201910061807225_BoolPUStatusAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
