@@ -200,6 +200,10 @@
     <Compile Include="Migrations\201910061807225_BoolPUStatusAdded.Designer.cs">
       <DependentUpon>201910061807225_BoolPUStatusAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910071234243_updatedMigration.cs" />
+    <Compile Include="Migrations\201910071234243_updatedMigration.Designer.cs">
+      <DependentUpon>201910071234243_updatedMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Global.asax.cs">
@@ -277,9 +281,9 @@
     <Content Include="Views\Employee\ZipInfo.cshtml" />
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
-    <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Employee\Filter.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -321,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910061807225_BoolPUStatusAdded.resx">
       <DependentUpon>201910061807225_BoolPUStatusAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910071234243_updatedMigration.resx">
+      <DependentUpon>201910071234243_updatedMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

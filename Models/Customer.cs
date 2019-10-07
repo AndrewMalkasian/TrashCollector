@@ -21,7 +21,10 @@ namespace TrashCollectorRemade
         public string SpecialOneTimePickUp { get; set; }
         public string PickupDay { get; set; }
         public bool PickUpStatus { get; set; }
+        public string PickUpStartDay { get; set; }
+        public string PickUpEndDay { get; set; }
         public double Balance { get; set; }
+
         [ForeignKey("ApplicationUser")]
         public string ApplicationId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }

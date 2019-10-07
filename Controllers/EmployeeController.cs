@@ -77,7 +77,7 @@ namespace TrashCollectorRemade.Controllers
         {
             //
 
-            if (customer.PickupDay == employee.PickUpDay 
+            if (customer.PickupDay == employee.PickUpDay) 
             { 
                 customer.PickUpStatus = true;
                 customer.Balance += 30;

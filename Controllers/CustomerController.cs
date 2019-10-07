@@ -86,6 +86,8 @@ namespace TrashCollectorRemade.Controllers
                 customerFromDb.State = customer.State;
                 customerFromDb.PickupDay = customer.PickupDay;
                 customerFromDb.SpecialOneTimePickUp = customer.SpecialOneTimePickUp;
+                customerFromDb.PickUpStartDay = customer.PickUpStartDay;
+                customerFromDb.PickUpEndDay = customer.PickUpEndDay;
                 db.SaveChanges();
 
                 return RedirectToAction("Index","Customer");
