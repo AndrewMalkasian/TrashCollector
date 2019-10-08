@@ -113,3 +113,4 @@ C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\Tra
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.TestingProperties.resources
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.BoolPUStatusAdded.resources
 C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.updatedMigration.resources
+C:\Users\Andrew Malkasian\Desktop\devCodeCamp\TrashCollectorRemade\obj\Debug\TrashCollectorRemade.Migrations.PUendDay_PUStartDay_Added.resources

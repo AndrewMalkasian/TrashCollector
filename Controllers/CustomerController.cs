@@ -20,9 +20,10 @@ namespace TrashCollectorRemade.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-           
+            var CustomerId = User.Identity.GetUserId();
+            var customer = db.Customers.Where(e => e.ApplicationId == CustomerId).ToList();
 
-            return View();
+            return View(customer);
         }
         //TODO: createyourindex view 
 
@@ -38,8 +39,8 @@ namespace TrashCollectorRemade.Controllers
         // GET: Customer/Create
         public ActionResult Create()
         {
-
-            return View();
+            Customer customer = new Customer();
+            return View(customer);
 
         }
 

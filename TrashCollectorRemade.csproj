@@ -204,6 +204,14 @@
     <Compile Include="Migrations\201910071234243_updatedMigration.Designer.cs">
       <DependentUpon>201910071234243_updatedMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910071352329_PUendDay_PUStartDay_Added.cs" />
+    <Compile Include="Migrations\201910071352329_PUendDay_PUStartDay_Added.Designer.cs">
+      <DependentUpon>201910071352329_PUendDay_PUStartDay_Added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910081314016_Test_Migration.cs" />
+    <Compile Include="Migrations\201910081314016_Test_Migration.Designer.cs">
+      <DependentUpon>201910081314016_Test_Migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Global.asax.cs">
@@ -282,8 +290,11 @@
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
     <Content Include="Views\Employee\Filter.cshtml" />
+    <Content Include="Views\Employee\View.cshtml" />
+    <Content Include="Views\Employee\Create.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Employee\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -328,6 +339,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910071234243_updatedMigration.resx">
       <DependentUpon>201910071234243_updatedMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910071352329_PUendDay_PUStartDay_Added.resx">
+      <DependentUpon>201910071352329_PUendDay_PUStartDay_Added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910081314016_Test_Migration.resx">
+      <DependentUpon>201910081314016_Test_Migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
